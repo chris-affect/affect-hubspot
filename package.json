@@ -1,0 +1,20 @@
+{
+  "name": "affect-hubspot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "HubSpot Marketplace app with native app pages and CRM extensions.",
+  "scripts": {
+    "install:cards": "npm install --prefix src/app/cards",
+    "install:pages": "npm install --prefix src/app/pages",
+    "install:oauth": "npm install --prefix services/oauth",
+    "dev:oauth": "npm run dev --prefix services/oauth",
+    "lint": "npm run lint --prefix src/app/cards",
+    "lint:fix": "npm run lint:fix --prefix src/app/cards",
+    "format": "npm run format --prefix src/app/cards",
+    "format:check": "npm run format:check --prefix src/app/cards",
+    "typecheck:pages": "npm run typecheck --prefix src/app/pages"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

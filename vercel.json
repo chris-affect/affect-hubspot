@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/install", "destination": "/api/install" },
+    {
+      "source": "/oauth/callback",
+      "destination": "/api/oauth/callback"
+    }
+  ]
+}

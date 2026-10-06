@@ -1,0 +1,12 @@
+{
+  "uid": "affect_hubspot_card",
+  "type": "card",
+  "config": {
+    "name": "Affect HubSpot",
+    "location": "crm.record.tab",
+    "entrypoint": "/app/cards/NewCard.tsx",
+    "objectTypes": [
+      "contacts"
+    ]
+  }
+}
